@@ -1,0 +1,46 @@
+<app-header></app-header>
+
+
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-blue bg-primary scrolling-navbar" [containerInside]="false">
+        <logo>
+            <a class="logo navbar-brand" href="#"><strong>Company logo</strong></a>
+        </logo>
+        <links>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active waves-light" mdbRippleRadius>
+                    <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link">Expertise</a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link">Opinions</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <form class="form-inline">
+                    <div class="md-form my-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+        </links>
+      </mdb-navbar>
+
+
+      
+<router-outlet></router-outlet>
+<app-footer></app-footer>
